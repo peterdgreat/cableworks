@@ -106,3 +106,6 @@ function dynamicYear() {
 addEventListener("DOMContentLoaded", dynamicYear);
 
 // <script>document.write(new Date().getFullYear());
+
+//Gallery
+// MDB Lightbox Init

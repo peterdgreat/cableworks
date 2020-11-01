@@ -243,7 +243,7 @@ a {
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 20px;
-    height: 200px;
+    height: 260px;
 }
 
 .service-items {
@@ -564,4 +564,32 @@ main {
 /* footer  */
 .email {
     width: 280px;
+}
+.icon{
+    width: 60px !important;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.icon-sp{
+    width: 60px !important;
+    height: 40px;
+}
+@media screen and (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } 
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+    .hidden-lg{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+ 
+    .hidden-sm{
+        display: none;
+    }
 }
