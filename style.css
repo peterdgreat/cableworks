@@ -340,7 +340,7 @@ ul {
 }
 .training h5 {
     text-align: center;
-    color: black;
+    color:#0d0d0de5;
 }
 .read-more {
     display: flex;
@@ -355,12 +355,12 @@ ul {
     align-items: center;
 }
 .training-btn:hover {
-    color: black;
+    color: #0d0d0de5;
 }
 
 .training-bg {
     background-color: white;
-    color: black;
+    color: #0D0D0D;
     border-radius: 0.5em;
 
     margin-bottom: 1em;
@@ -371,7 +371,7 @@ ul {
 .traning-header {
     border-radius: 0.5em;
     height: 100%;
-    background-color: black;
+    background-color:#0d0d0de5;
 }
 .traning-header h4 {
     color: white;
