@@ -72,11 +72,11 @@ html {
 }
 
 .navbar-nav a:active {
-    color: #0f8bea;
+    color:#0f3f6d;
 }
 
 .navbar-nav a:hover {
-    background: #0f8bea;
+    background: #0f3f6d;
     color: white !important;
     border-radius: 20px;
     width: 120px;
@@ -108,6 +108,7 @@ a {
     padding-right: 10px;
 }
 
+
 .carousel-item {
     width: 100%;
     height: 650px;
@@ -123,7 +124,7 @@ a {
     left: 0px;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.712);
 }
 
 .carousel-caption {
@@ -244,6 +245,10 @@ a {
     padding: 10px;
     margin-bottom: 20px;
     height: 260px;
+
+}
+.p-1{
+    margin-top: 1em;
 }
 
 .service-items {
@@ -251,6 +256,11 @@ a {
     flex-direction: row;
     justify-content: space-between;
 }
+.center{
+    margin: 0 auto;
+    width: 60px;
+}
+
 
 /*  Our offer (Packages) */
 .heading {
@@ -264,43 +274,45 @@ a {
 }
 .special-bg {
     background-color: #0f3f6d;
-    border-radius: 1em;
-    height: 500px;
-    padding: 15px;
+
+ 
     color: white;
-    text-align: justify;
+height: 100%;
+    width: 100%;
+
+    padding-top: 2rem;
+   
+    -webkit-box-shadow: 0px 0px 2px 1px#357fc4;
+    -moz-box-shadow: 0px 0px 2px 1px #357fc4;
+    box-shadow: 0px 0px 2px 1px#357fc4;
+    border-radius: 15px;
 }
+
 
 .special-bg p {
     text-align: justify;
 }
-.cctv,
-.intercoms,
-.ElectricFence,
-.alarm,
-.SolarInverter,
-.DSTV {
-    margin-bottom: 2em;
-}
-.sectionHead {
-    height: 146px;
-}
+
+
 .EstateSolution,
 .sales {
     background-color: #0f3f6d;
     color: white;
-    border-radius: 1em;
+    -webkit-box-shadow: 0px 0px 2px 1px#357fc4;
+    -moz-box-shadow: 0px 0px 2px 1px #357fc4;
+    box-shadow: 0px 0px 2px 1px#357fc4;
+    border-radius: 15px;
     margin-top: 1em;
     padding: 18px;
     text-align: justify;
+    width: 100%;
+  
 }
 
 .EstateSolution ul {
     text-align: left;
 }
-.sales {
-    height: 263px;
-}
+
 ul {
     list-style-type: circle;
 }
@@ -328,7 +340,7 @@ ul {
 }
 .training h5 {
     text-align: center;
-    color: #108bea;
+    color: black;
 }
 .read-more {
     display: flex;
@@ -345,16 +357,12 @@ ul {
 .training-btn:hover {
     color: black;
 }
-.special-bg-2 {
-    background-color: #108bea;
-    color: white;
-    border-radius: 1em;
-}
+
 .training-bg {
     background-color: white;
     color: black;
     border-radius: 0.5em;
-    height: 17em;
+
     margin-bottom: 1em;
 }
 .training-bg:hover {
@@ -568,8 +576,7 @@ main {
 .icon{
     width: 60px !important;
     height: 60px;
-    display: flex;
-    justify-content: center;
+    align-items: center;
 }
 .icon-sp{
     width: 60px !important;
