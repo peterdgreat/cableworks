@@ -598,4 +598,7 @@ main {
     .hidden-sm{
         display: none;
     }
+    .review{
+        width: 100%;
+    }
 }
